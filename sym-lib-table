@@ -7,4 +7,5 @@
   (lib (name "power_my")(type "KiCad")(uri "${KIPRJMOD}/Lib/power_my.kicad_sym")(options "")(descr ""))
   (lib (name "Logo_My")(type "KiCad")(uri "${KIPRJMOD}/Lib/Logo_My.kicad_sym")(options "")(descr ""))
   (lib (name "Gate_Driver_my")(type "KiCad")(uri "${KIPRJMOD}/Lib/Gate_Driver_my.kicad_sym")(options "")(descr ""))
+  (lib (name "Relay_Solid_my")(type "KiCad")(uri "${KIPRJMOD}/Lib/Relay_Solid_my.kicad_sym")(options "")(descr ""))
 )

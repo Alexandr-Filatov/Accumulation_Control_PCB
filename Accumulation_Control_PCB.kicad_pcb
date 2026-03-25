@@ -329,6 +329,10 @@
 	(net 172 "+1V0")
 	(net 173 "unconnected-(U2-PE11-Pad42)")
 	(net 174 "unconnected-(U2-PE9-Pad40)")
+	(net 175 "unconnected-(U7-Pad11)")
+	(net 176 "unconnected-(U7-PadA2)")
+	(net 177 "unconnected-(U7-Pad14)")
+	(net 178 "unconnected-(U7-PadA1)")
 	(footprint "Connector_My:Mini-Fit_01x02_Vertical"
 		(layer "F.Cu")
 		(uuid "00a3159b-33cf-4275-b17f-f8ed6175af06")
@@ -439,7 +443,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c3af31d6-db2a-42e9-88f8-3d2202796edc")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -947,7 +951,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/158a814a-b3d7-4c97-ba12-09e89ec76b2f")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -1201,7 +1205,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6093b7dd-5aa9-499d-9881-61d12636020b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -1709,7 +1713,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c5a720d1-13b6-45ab-8b27-c357a11b0873")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -1962,7 +1966,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/34d90a64-2f93-4e98-93cc-c312651e73e0")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2215,7 +2219,7 @@
 		(property ki_fp_filters "LQFP*14x14mm*P0.5mm*")
 		(path "/b08ea4b4-85dc-4fbd-af41-89d3a64c541e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 7.11 -7.11)
@@ -3732,7 +3736,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/d91362e8-cc99-4a39-932c-5cfdff3ff9de")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.585 2.26)
@@ -4005,7 +4009,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/197cc12e-96ca-41d9-b3fe-26013dab94ac")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -4258,7 +4262,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/39703165-0296-4af6-ae2c-c9df1a5f9832")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -4511,7 +4515,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/82ababbd-fa26-4718-8f04-63985536d5a8")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -4764,7 +4768,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4084ae2b-ecde-4e89-b1cb-7d1997ccd971")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -5016,7 +5020,7 @@
 		)
 		(path "/f9afec0e-1af3-417f-b15d-844fecdacd21")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -5323,7 +5327,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/27d57b2f-a155-4620-bdb9-d01f2bea0353")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -5598,7 +5602,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ca120ba8-a32b-4de2-8133-f0ea133a5af9")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -5872,7 +5876,7 @@
 		)
 		(path "/f21c6e26-e916-4091-959c-151a68d57260")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.86 3.035)
@@ -6269,7 +6273,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6109cdcd-0b14-4d45-b979-22b0c6879e86")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -6522,7 +6526,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/18bdfb33-f3cb-4eae-8a45-822627793a49")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -6775,7 +6779,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/6111494f-a746-49fe-97c9-69ecd65ce1dc")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 1.6)
@@ -7096,7 +7100,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/db12f83f-434d-4f7a-b02d-73da024b1fc0")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -7349,7 +7353,7 @@
 		(property ki_fp_filters "SOT?223*")
 		(path "/534e0cdd-e460-45cb-be55-2f50cf79874d")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 3.41)
@@ -7666,7 +7670,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4ba6e399-6061-4f96-a77c-53a9aa811cc3")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -7919,7 +7923,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/d130a911-1252-4163-92b4-bd2b8bc3db2e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.29 8.86)
@@ -8549,7 +8553,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/62025719-460b-4cf7-99f0-57e2b49a8850")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -8802,7 +8806,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d28e5d21-81ab-401b-a2ba-e37a75d43290")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -9055,7 +9059,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0760fe5a-cc87-4c1f-a83f-59004b40e4a2")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -9308,7 +9312,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f09fa25e-e06a-46b4-939b-9a1b5440109b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -9561,7 +9565,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0ef8df13-193e-49f0-ac38-4f992714caab")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 -0.96)
@@ -9836,7 +9840,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/46e3b9d0-dec7-4467-8b1b-38f24d3b22bf")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -10089,7 +10093,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e631c1ee-952b-4ee1-8fd7-854e3700f81c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -10342,7 +10346,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2ecaa4e3-dc3c-4503-a035-e3ae8d3e5259")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -10595,7 +10599,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/dd35712c-127b-4616-923a-29c8d70b4176")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -10870,7 +10874,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/962343f0-d4ed-466d-8282-f5d79d9fe7e6")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -11123,7 +11127,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/31c160c9-4b7b-4b00-9d38-1e78160ed91c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.935 1.71)
@@ -11395,7 +11399,7 @@
 		)
 		(path "/5dc1a06f-580a-4546-b2c8-fa7ab9a3afd8")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 2.56)
@@ -11751,7 +11755,7 @@
 		)
 		(path "/d14ab25a-55f3-414f-b0ec-2327f30cb8af")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.86 3.035)
@@ -12145,7 +12149,7 @@
 		)
 		(path "/b560d971-5621-480c-a664-d8fcee00b6f0")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -12450,7 +12454,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9f0f85cb-9149-4634-ae00-e9f28f9e8f8b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -12703,7 +12707,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/b4717a15-2a75-4b2d-a2eb-d00e099eccc8")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.635 -1.51)
@@ -12924,7 +12928,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/34aac687-c84a-430e-8c6b-e3cd3b1430d5")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 8.95)
@@ -13344,7 +13348,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/bc59836c-38a5-411d-9be0-bf65a26a707a")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.51 1.65)
@@ -13669,7 +13673,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fe85fe8e-c005-4806-935a-0fcde270b5ee")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -13923,7 +13927,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/84601fb2-b139-44a7-8509-db90da84e38b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -14431,7 +14435,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/038b64aa-eba8-4c89-9615-914688010503")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -14682,7 +14686,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59eb30dc-4e81-4955-9bd3-e766ab38d3ad")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -14935,7 +14939,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cbbfcd44-72d0-4654-bf94-18677f29bae0")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -15188,7 +15192,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5a2c1c0a-3476-40e1-b103-c3b85dc4fc9c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -15441,7 +15445,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ea0e5d7e-3a54-490e-b6db-16776c23f49f")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -15695,7 +15699,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/a2626a04-017a-43ed-a27e-535763b960a2")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -15948,7 +15952,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/90719793-67e2-45b6-9b0d-eb6913e6e77d")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -16201,7 +16205,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3bc4b035-324f-4c93-988a-a46bc5dccf90")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -16454,7 +16458,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/acee916c-b072-4252-b1c8-0f2a0af39f21")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -16708,7 +16712,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7b2f3961-7a64-4127-8077-86c67caa5664")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -17216,7 +17220,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/080d6ed6-3dab-4d5b-a516-a31ec87c1013")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -17495,7 +17499,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1811f3cf-fde9-4c57-be7a-3729d5dd05f2")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.51 1.65)
@@ -17820,7 +17824,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/6644651b-1a51-47f8-b212-428e2ba60aca")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.386252 -1.71)
@@ -18024,7 +18028,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b83e4f5d-5fb4-4607-af20-727287491fdd")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -18244,7 +18248,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/49c954ae-06a4-4f71-897a-a45833a7143c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -18519,7 +18523,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c1d2a6f5-3869-4e36-9ef6-831589df1d04")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -18773,7 +18777,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0987387c-c6c8-4066-9875-6b9bcaab6f3d")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -19027,7 +19031,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e58ac949-639a-44df-90eb-0427a17faf16")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -19537,7 +19541,7 @@
 		(property ki_fp_filters "SOT?23* *SC*70*")
 		(path "/2d827548-e6ac-4d93-86d9-06c33151909d")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -19863,7 +19867,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9b0b3e6c-5859-4320-aba2-7ad6ad97e8d6")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -20114,7 +20118,7 @@
 		(property ki_fp_filters "SOT?23* *SC*70*")
 		(path "/125d5716-cf20-429d-a6e8-79c781581f4f")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -20440,7 +20444,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b271a90a-5f92-4f6a-a888-00605c33bd3c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -20693,7 +20697,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/0c11dd7b-af12-4570-9151-1b86bacea006")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 0.96)
@@ -20968,7 +20972,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f701f03a-5bfe-4917-9fe0-587e47ac904b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -21221,7 +21225,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/0076d1df-9834-4770-9490-5fc6536d3da4")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -21524,7 +21528,7 @@
 		(property ki_fp_filters "*K78xx-1000R3*")
 		(path "/9b631155-8df7-4f41-affb-1fd4fbf368ba")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(fp_line
 			(start -5.9 -4.65)
 			(end 5.9 -4.65)
@@ -21782,7 +21786,7 @@
 		)
 		(path "/e9157828-1da3-446a-8791-bbad13b1070a")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -22087,7 +22091,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a0cd1c6e-7a13-459d-af2c-78d842b72b39")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -22338,7 +22342,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/04538119-56b8-4441-83b0-696c5817b106")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -23403,7 +23407,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c3c792e8-5811-4c2a-90ac-3a7b5ca012a9")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -23656,7 +23660,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cb77bc1a-ae06-427c-81f7-16339a48bf79")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -23909,7 +23913,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6eb6208-48a2-4eca-9387-7ef09fa4345f")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -24162,7 +24166,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b74c4868-ac4d-42e0-b06e-ec56c150af29")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -24415,7 +24419,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/24b45af3-3bcd-47cb-a590-17058427d2cf")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -24689,7 +24693,7 @@
 		)
 		(path "/90e22613-db36-4f7b-9e36-d329f8070827")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -24968,7 +24972,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/f88e9208-6dc3-43f5-908a-7e3072be484e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -25275,7 +25279,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/277c8c3a-157c-4a09-b807-eb27b935a216")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -25789,7 +25793,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db3be32e-dd3a-4558-b411-2cc1683e4b73")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -26039,7 +26043,7 @@
 		)
 		(path "/a7520ca8-bd7a-4972-98ac-b910eb0759a7")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -26347,7 +26351,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/231c118f-d559-4051-a296-7bfc2bf6299c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -26855,7 +26859,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cdc8ac9a-7506-47d4-8973-f2893c7481b4")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -27108,7 +27112,7 @@
 		(property ki_fp_filters "SOT?23* *SC*70*")
 		(path "/3affc9c1-c39a-440b-903a-5cec8d775588")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -27435,7 +27439,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a29c0aff-8178-4fdb-9345-87f97280e159")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -27943,7 +27947,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/958ffd4c-1c3f-40b6-80d9-7883f1b570fb")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -28197,7 +28201,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/93d3410d-7436-4f4e-add6-8f1c516e6462")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -28707,7 +28711,7 @@
 		(property ki_fp_filters "SOT?223*")
 		(path "/e94b05f5-9854-463b-a703-41b5aff7b3d8")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 3.41)
@@ -29024,7 +29028,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/23cad0f7-569c-4c38-9fb5-3ff8c7d4ec04")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -29277,7 +29281,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/42ea0e25-225c-4193-b7ce-a7c0871ac442")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -29556,7 +29560,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/0de93574-fa3d-4134-a0b8-76f54cc438cb")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.51 1.65)
@@ -29882,7 +29886,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5d898b2e-4b0e-44da-bbf9-e87f79b9faf9")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -30390,7 +30394,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c838133d-ca99-4f3e-b8c6-46c30964188e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -30643,7 +30647,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d9ee68a0-035e-4d3f-acab-3698a5139c6e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -30896,7 +30900,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/3d5a6be1-899d-4870-b6a7-9fa251f4fe30")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.935 1.71)
@@ -31169,7 +31173,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4731f07b-7376-4d22-bd08-ec541f4eaef3")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -31422,7 +31426,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/97601eb6-1d2a-45fd-a09a-adf523e223f1")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -31675,7 +31679,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2a5056a8-a36c-4599-8f36-1633ccbfe1e9")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -31928,7 +31932,7 @@
 		(property ki_fp_filters "SOT?223*")
 		(path "/0dfb1fb7-7386-4a30-835d-3445a212b17e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 3.41)
@@ -32245,7 +32249,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0cd0d4b7-6692-4994-9b40-9cbb9f119760")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -32498,7 +32502,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2d707403-5914-4f7e-a0b1-08631188a94c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -32751,7 +32755,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eac92bbe-8e23-4395-968c-b074cc95dbc1")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -33030,7 +33034,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/83a6d95f-051f-40f4-9853-8de04e950130")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.01 -0.85)
@@ -33355,7 +33359,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/895ff501-d2a7-471a-892c-4a157e3d0b30")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.585 2.26)
@@ -33628,7 +33632,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/7e185c48-562a-4cab-9585-162e8a73aab4")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.75 -1.51)
@@ -33902,7 +33906,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/ffec2e16-f455-4ede-ba12-c45b7946ebc6")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -34155,7 +34159,7 @@
 		(property ki_fp_filters "SOT?223*")
 		(path "/7030362a-d10a-402c-be1e-9210e7213e53")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 3.41)
@@ -34472,7 +34476,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/175c17ed-4088-42c1-b9f7-2376541e6c5a")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -34725,7 +34729,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/137764d6-4464-4adf-a873-e89505087ce4")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -34978,7 +34982,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ff3d0aef-6b5e-4c2e-9346-ed6deb5d7e1f")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -35231,7 +35235,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/725fe79c-39d8-4212-9137-5946a186c12a")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -35485,7 +35489,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ce192e3b-0ba8-4fcc-b426-7a92bf016f0e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -35995,7 +35999,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ad470ff9-0163-4c1d-a6d1-dc1cf2a6ec7c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -36248,7 +36252,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a8b56de7-f245-42ff-85f1-ee27db9a64fb")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -36501,7 +36505,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/83d762f5-145b-458b-aa72-97f6ac9914bc")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -36777,7 +36781,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2e5962cd-fa97-4ba3-860e-cf1725f84dd2")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -37106,7 +37110,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/98f7aba2-6c2f-4353-8cd2-a11832d69fb4")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -37359,7 +37363,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f10d65cd-5587-45c2-8c81-a22e1ce462b2")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -37612,7 +37616,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4f8b687c-daa7-435e-a249-931823b04696")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -37865,7 +37869,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e5e3de57-b478-4e61-b00a-8b7a373506a4")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -38067,7 +38071,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/f41043b0-065b-4323-a393-07f7d24d414d")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(clearance 5)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -38221,7 +38225,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d0dc3f73-9eee-4b83-81ca-dcb18cd846c7")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -38474,7 +38478,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/aca5e661-2d2d-4185-92ce-e480ab1ddb26")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -38727,7 +38731,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bdf05c08-9eb1-4a16-9010-8437da3663c3")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 0.96)
@@ -39002,7 +39006,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/a73e4063-c91d-44c9-98ad-48c1ede21f32")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -39277,7 +39281,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/417befc5-a30a-4af3-bc8d-ec19d409398e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -39530,7 +39534,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/92524aca-30a1-4042-ad97-b9df89bcc133")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -39783,7 +39787,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/baed209a-7cfc-49a4-99cc-7ab8fb9b405e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -40008,7 +40012,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/0a30e4ba-d02d-4bc7-a38d-b8a7154a6a98")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -40315,7 +40319,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1ba30f8e-3064-4b95-9637-3fa617a2fe5e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -40565,7 +40569,7 @@
 		)
 		(path "/6f63166f-6dbe-455f-8d85-cb251f20257b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -40898,7 +40902,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/30223792-3cb4-4c7a-b638-d8e44b4a9f92")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.51 1.65)
@@ -41223,7 +41227,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/93b47fca-bab1-435a-a40f-f8b8386baca5")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -41473,7 +41477,7 @@
 		)
 		(path "/b9373709-0b5d-49eb-85a6-9c95af636b44")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -41778,7 +41782,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/128c49b0-00b2-40f8-bbb7-575cae2d535c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -42031,7 +42035,7 @@
 		(property ki_fp_filters "SOT?23* *SC*70*")
 		(path "/7f8068b4-74bf-446a-b2ea-5ae1874159b3")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -42357,7 +42361,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4a178086-c233-45cb-a523-e0c3c061f946")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -42610,7 +42614,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/89bd1c03-bddc-447f-a391-04884acda6cd")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -42863,7 +42867,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2079f307-3245-42b4-ad80-4b431d019bf3")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -43113,7 +43117,7 @@
 		)
 		(path "/1637cd9a-be8d-40bc-ad19-4b1967211e79")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -43392,7 +43396,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/6356de23-043f-4018-94aa-fa67f4fc2929")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -43725,7 +43729,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/85bcccf0-37c3-4dee-a88d-8468aa2bbd99")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.51 1.65)
@@ -44050,7 +44054,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/362b30b7-802b-4f46-9347-fc343ad5994a")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 -0.96)
@@ -44325,7 +44329,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b74f998f-29a9-45ca-beab-991e7815269f")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -44601,7 +44605,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b1a616e1-2611-4ac1-861a-7e4e99638626")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -45109,7 +45113,7 @@
 		(property ki_fp_filters "SOT?223*")
 		(path "/0fd9debb-8e29-47ec-a342-8eb75cf73442")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 3.41)
@@ -45426,7 +45430,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c04bd2e2-2016-4f85-9f9f-422083108fec")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -45651,7 +45655,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/0c2bd699-60ff-4e26-8451-fc91023b6b88")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -45958,7 +45962,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0d8223ce-dcf5-4749-b926-7e4aaf9e4fc2")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -46211,7 +46215,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5f155ed0-a5d2-4614-801f-f07bfe21e438")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -46464,7 +46468,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cf5449d9-7eea-4472-ae5a-f46e000ad0fb")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -46717,7 +46721,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/666cf6c8-fd48-48d6-b518-48f15463ecbb")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.29 8.86)
@@ -47358,7 +47362,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fccf6de3-9ade-4c06-a721-884397b27d01")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -47609,7 +47613,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5e487e92-056b-4888-abe0-187544deb420")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -47862,7 +47866,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9c42e536-0304-4bab-9a18-5c02916ab319")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -48115,7 +48119,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b84c3eb6-62fb-42eb-9079-a9d4e6743ebf")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -48368,7 +48372,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/32888821-867f-447e-ac21-10a2deba6bf1")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -1.36)
@@ -48619,7 +48623,7 @@
 		(property ki_fp_filters "SOT?23* *SC*70*")
 		(path "/b8345a1f-7567-43a9-af4c-449a1e0661d5")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -48945,7 +48949,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ceb68d71-e9ef-4147-8b87-1056e87fe4d2")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -49198,7 +49202,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/110c0ea8-3ea9-4102-b3aa-2749e06f342e")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3 -1.71)
@@ -49471,7 +49475,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/befbf608-c7fe-4c95-9cac-f57058b913b8")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -49615,6 +49619,300 @@
 			)
 		)
 	)
+	(footprint "OptoDevice:Finder_34.81"
+		(layer "F.Cu")
+		(uuid "d73802f8-7d93-4a44-8bc3-19e6e6b13f2c")
+		(at 313.75 260.25)
+		(descr "Relay SPST, Finder Type 34.81 (opto relays/coupler), vertical/standing form, see https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf")
+		(tags "Relay SPST Finder")
+		(property "Reference" "U7"
+			(at 10.25 -2.2 0)
+			(layer "F.SilkS")
+			(uuid "0bfd60c4-0b8f-4316-bd38-1b4878cd7877")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "34.81-7048"
+			(at 9.15 4.8 0)
+			(layer "F.Fab")
+			(uuid "d5a1ba88-3143-4b68-acbc-5e34a4556f78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fe9ff3b-cee8-4d6b-9a87-ed87003a39f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Ultra-Slim Solid-State Relay, 0.1A, 48V DC output switching"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6cf3fd6-ee03-4c8b-a325-5e67316412cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Finder*34.81*")
+		(path "/0112fb21-d067-4209-972f-e3de229894c6")
+		(sheetname "/")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -4.95 -1.4)
+			(end -4.95 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6a8dc317-6d08-4d26-aa80-595595a00a10")
+		)
+		(fp_line
+			(start -4.95 -1.4)
+			(end 23.25 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e39874d3-9d52-4410-8ddd-a74260e1174a")
+		)
+		(fp_line
+			(start -4.95 3.8)
+			(end -4.95 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3bcaea95-4ddb-4221-868f-4dcb49cc19e2")
+		)
+		(fp_line
+			(start 1 -1.6)
+			(end -1 -1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "009e4478-bee4-428b-b940-68e59856aa5c")
+		)
+		(fp_line
+			(start 23.25 -1.4)
+			(end 23.25 3.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bfdddb8f-3bff-4f5d-b56c-0749b9d8e246")
+		)
+		(fp_line
+			(start 23.25 3.8)
+			(end -4.95 3.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ced0664-851e-4c0e-8bf3-b154ae353528")
+		)
+		(fp_line
+			(start -5.1 -1.55)
+			(end -5.1 3.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50025bc0-fe84-462e-b484-0ce27d76fd7c")
+		)
+		(fp_line
+			(start -5.1 -1.55)
+			(end 23.4 -1.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b5b24086-dc1c-4e97-b22e-7776eadf07fc")
+		)
+		(fp_line
+			(start 23.4 3.95)
+			(end -5.1 3.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d54b6345-e836-4988-a003-bee55a2b910e")
+		)
+		(fp_line
+			(start 23.4 3.95)
+			(end 23.4 -1.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f180567b-9eb4-40eb-adaf-23fa77c2cb09")
+		)
+		(fp_line
+			(start -4.85 -1.3)
+			(end -1 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b45d357a-da7a-4634-9ae5-22e5c6256f14")
+		)
+		(fp_line
+			(start -4.85 3.7)
+			(end -4.85 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "400bbef2-bc84-45e7-8d25-2de43d4c8470")
+		)
+		(fp_line
+			(start 0 -0.3)
+			(end -1 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "243b6fa1-4ce9-41a5-a7b1-f2b8a48a2f18")
+		)
+		(fp_line
+			(start 0 -0.3)
+			(end 1 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5ca641cb-3311-427a-b9bb-c8372a166a74")
+		)
+		(fp_line
+			(start 1 -1.3)
+			(end 23.15 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "80e343f5-2f70-449e-ba04-681caff3cfc8")
+		)
+		(fp_line
+			(start 23.15 -1.3)
+			(end 23.15 3.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "48ebf11d-b72e-473a-9d71-98165785ecc8")
+		)
+		(fp_line
+			(start 23.15 3.7)
+			(end -4.85 3.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ec138a7a-22b3-40df-9f32-fad40f8b1da4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 10.25 2.4 0)
+			(layer "F.Fab")
+			(uuid "f7b0fdc4-e266-4f69-8db1-3a8c9279edce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "11" thru_hole circle
+			(at 16.25 0)
+			(size 2.4 2.4)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 175 "unconnected-(U7-Pad11)")
+			(pintype "passive")
+			(uuid "51b66ce1-a19d-4e02-845a-9bc755cf61c7")
+		)
+		(pad "14" thru_hole circle
+			(at 21.25 0)
+			(size 2.4 2.4)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 177 "unconnected-(U7-Pad14)")
+			(pintype "passive")
+			(uuid "9d86c403-b254-4d4c-87e2-d5c192ccc784")
+		)
+		(pad "A1" thru_hole roundrect
+			(at 0 0)
+			(size 2.4 2.4)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.104)
+			(net 178 "unconnected-(U7-PadA1)")
+			(pintype "passive")
+			(uuid "bad964a5-671f-4c1c-854f-99bd499b68b3")
+		)
+		(pad "A2" thru_hole circle
+			(at -3.75 0)
+			(size 2.4 2.4)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 176 "unconnected-(U7-PadA2)")
+			(pintype "passive")
+			(uuid "57d4d82b-46a9-4a9e-80fd-cb7589b08f32")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/OptoDevice.3dshapes/Finder_34.81.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d82717d8-5bcb-468c-a734-038e0728c379")
@@ -49724,7 +50022,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bfb9f124-c9bc-4cb4-b218-21ddda96bf31")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -49977,7 +50275,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8e9c8bc2-2bdb-4645-9229-e5549fb5fb88")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -50230,7 +50528,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f488d9da-a0f8-4732-9e23-8e2bea110522")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -50483,7 +50781,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8aa56149-5cb7-4994-ac56-aaca64414c53")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -50736,7 +51034,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c7f06c61-0147-4192-8b28-ee79c1bd1d7f")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -50989,7 +51287,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6f03695d-a5ed-429a-a9b7-d41e34858671")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -51242,7 +51540,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/17c5f5fa-f88d-4536-b501-3037da8b893f")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -51495,7 +51793,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/badded1d-d155-43ac-bb92-4244af8a1e6b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -1.36)
@@ -51748,7 +52046,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/011fec5b-a88c-48f8-a1a2-5dc10ca397d2")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -51996,7 +52294,7 @@
 		)
 		(path "/7bd4ad16-841a-4de6-bff5-a3dd336beb07")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(fp_line
 			(start -11.29999 -2.79999)
 			(end 11.30001 -2.79999)
@@ -52312,7 +52610,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/5c00f62f-8e2f-41d9-b1da-3cce168b4eae")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -52619,7 +52917,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/23ad531e-505d-45a3-9722-d208d455cbad")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -52869,7 +53167,7 @@
 		)
 		(path "/ab6814f5-d8d9-41d6-8ebd-addad7336e53")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -53176,7 +53474,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/47a9b94c-51f4-418b-ba6e-0b873aaee8d6")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -53429,7 +53727,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bab8b007-86cf-4e97-a6e1-71cf3d68aa43")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 -0.96)
@@ -53705,7 +54003,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/740542a9-2c6f-4e17-8fde-c256e2b01a94")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -54213,7 +54511,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a8e1b050-6d58-40c4-a1ca-04174242f562")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -54466,7 +54764,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2057ecde-54f5-4a53-ae59-a63b7ec33824")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -54719,7 +55017,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cc7265c5-61ba-4fd9-b18e-fe8ca6e9c1dc")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -54972,7 +55270,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bbb98d59-eb18-48e1-bbd5-d32c3ac6895d")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -55222,7 +55520,7 @@
 		)
 		(path "/d304bc11-465d-4876-b8d4-848f88a6d344")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -55529,7 +55827,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/74c24ad3-d272-429e-906e-625b9fedb6af")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -55782,7 +56080,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4e055774-f424-4cba-915a-98317d9a8d16")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -56035,7 +56333,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/784ca513-c201-4613-9ae2-17dae471a914")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -56310,7 +56608,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5352f2b0-35cf-4418-bff9-8a0d63905dbc")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -56563,7 +56861,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7eb94c95-d827-4e1c-9481-8bf83d114f84")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -56816,7 +57114,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/46a3144c-39ad-4d81-9d44-00a4f03f7367")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -57069,7 +57367,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3f907a18-2e72-44cc-9a5d-d051b172458c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -57323,7 +57621,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a9a7ac97-e165-4fff-a8f5-bdd9b492ed11")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -57782,7 +58080,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/22798b7e-df30-4221-828b-95956f44afb2")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -58002,7 +58300,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/d2c03473-cb0a-440a-b879-37ce6770d98b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.65 -3.11)
@@ -58275,7 +58573,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/82dd49a3-62a3-43e4-abc4-822570e5f40c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -58528,7 +58826,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/43934a40-67f2-4231-958f-4ce9fd00b915")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -58780,7 +59078,7 @@
 		)
 		(path "/b16f5bd7-2eb9-4a8f-a994-7022281801f7")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.86 3.035)
@@ -59177,7 +59475,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e9bd0250-1804-4cba-b7d0-498de2457680")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -59452,7 +59750,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/17e138e6-08f5-406b-bd8b-fc3358f2e1cc")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -59705,7 +60003,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/878f61d1-c8c3-4469-a1e3-f6ee779435cc")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -59958,7 +60256,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d917f85d-e9d9-40fd-b82d-c5049fcdde4d")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -60233,7 +60531,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f434bb1d-30fc-48c0-9948-33c50ca1cc79")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -60487,7 +60785,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c0b15fc7-889c-4576-a2bd-fac73df58457")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2.81 7.46)
@@ -60991,7 +61289,7 @@
 		(property ki_fp_filters "*K78xx-1000R3*")
 		(path "/7d16c299-a8f4-49b3-9de1-415de5c69f87")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(fp_line
 			(start -5.9 -4.65)
 			(end 5.9 -4.65)
@@ -61258,7 +61556,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b3cf7e19-e893-4f56-a21f-4588c0744eca")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -61520,7 +61818,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9a19cb89-089d-4bb0-ab94-db784325ef79")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -61782,7 +62080,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5a4e772d-32db-48fd-9d60-09c65235e3cd")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -61997,10 +62295,24 @@
 				(justify mirror)
 			)
 		)
+		(property "Product Name" "20N06"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8bdf19ae-e096-4651-b39f-bfec0ab61b8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOT?223*")
 		(path "/39c7c0b4-09bc-4102-808c-61272da3dae6")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.11 3.45)
@@ -62367,7 +62679,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f2c4a9cd-b0a5-477a-8cbb-85230426a101")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -62629,7 +62941,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/371958e2-6a31-4284-8003-fb6abd178835")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -63157,7 +63469,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db17d1e2-fd44-4e95-b0a5-b07da1e0a172")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -63419,7 +63731,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6cae8583-7371-41d8-9775-9b569c7b7530")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -63681,7 +63993,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ce7a918e-8f16-40f9-ba6c-5e2a2d809a01")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -63885,7 +64197,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e5b609f2-3690-4d7b-bed3-033d1008fc6c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -64147,7 +64459,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bd0e61bb-5c7e-4366-bff9-daf8d2095fa0")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -64409,7 +64721,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/32c413e5-332f-403e-8c08-ed39af9dc63a")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -64671,7 +64983,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/80dd6326-1416-4cb9-b845-d1c12ff81b4a")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -64933,7 +65245,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/221fd403-6b76-46e7-8584-13c12d5a5fd8")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -65195,7 +65507,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ec78c9ec-fb50-42e9-a411-75e972b3bedc")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -65457,7 +65769,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a61ae0ac-2750-44e9-9191-7c54078fa814")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -65719,7 +66031,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8f4286dd-9a78-4f3c-bed8-8d1b3bcc6595")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -65981,7 +66293,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e111f2c2-bc25-4176-9287-69d8cf5da2c6")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -66243,7 +66555,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/11458125-4bab-469f-840f-12df28111c4c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -66505,7 +66817,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/20e852a9-16a9-4d34-bdc1-f425a166aaad")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -66767,7 +67079,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b924d5c4-62cc-41c6-87a9-9146e3f08c53")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -67029,7 +67341,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9e18324b-dfaa-4801-b18b-ef4f430c6220")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -67291,7 +67603,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/38afc3f0-8955-439a-842c-997dcaccfebf")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -67553,7 +67865,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a0d4b8c0-650e-4681-9c9c-39b095f48746")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -67716,7 +68028,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "BZT52C10"
+		(property "Value" "~"
 			(at 0 -2.1 90)
 			(layer "B.Fab")
 			(uuid "cd7a10c9-8bc1-4278-afef-9e3ecb428737")
@@ -67756,10 +68068,38 @@
 				(justify mirror)
 			)
 		)
+		(property "Description P/N" "Zener_Diode"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b134d5c-303b-4dec-b493-fdd66e4a60cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Product Name" "BZT52C10"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "684cf005-e5c6-4cf7-823b-7de89149fc53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/63a815f7-4433-4f07-9a41-904210c2e639")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.36 1)
@@ -68103,7 +68443,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a48f0ca2-50c8-4e5f-8f25-aecc64278462")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -68365,7 +68705,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5410176d-fab1-479a-b21e-bfa2f8fdc542")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -68627,7 +68967,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/12b76ea8-efd6-4ab7-8691-1dbc54166db5")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -68889,7 +69229,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0f08ef0c-2d73-4b9f-8d40-d4e911fb7b7b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -69151,7 +69491,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a249f570-1233-45e4-ad26-8f528616598a")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -69413,7 +69753,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/79878553-0df3-4f71-b37e-e3182c9cb282")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -69675,7 +70015,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e4ac927e-70ab-4ba9-831d-cdb5deb25d3a")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -69937,7 +70277,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/682009f4-2e40-4ef3-b03a-2acef190ae7c")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -70199,7 +70539,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fc63872a-6e5c-4974-a13d-1a973da2a251")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -70461,7 +70801,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3f97257d-460d-41ef-bab3-9158955ee2bb")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -70723,7 +71063,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5c8e2b5b-45ef-4c2f-9888-a039bcdbdfee")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -70985,7 +71325,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b51cf774-05f7-4c32-a878-26a1df056b4b")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -71247,7 +71587,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/78211db5-4f2e-43a7-ae7b-2b533133d5c0")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -71509,7 +71849,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2574ee0-23d4-4f63-a05f-f4310517891f")
 		(sheetname "/")
-		(sheetfile "PDU_Control_Board.kicad_sch")
+		(sheetfile "Accumulation_Control_PCB.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
