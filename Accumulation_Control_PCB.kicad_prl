@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PDU_Control_Board.kicad_prl",
+    "filename": "Accumulation_Control_PCB.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

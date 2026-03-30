@@ -1,4 +1,4 @@
-25965526658019879
+25972616124667792
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6226,6 +6226,13 @@ Capacitor_THT
 DX_5R5VxxxxU_D19.0mm_P5.00mm
 CP, Radial series, Radial, pin pitch=5.00mm, diameter=19mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf
 CP Radial series Radial pin pitch 5.00mm diameter 19mm supercapacitor
+0
+2
+2
+Capacitor_THT
+Без имени
+
+
 0
 2
 2
@@ -68481,12 +68488,33 @@ B_S-2WR3
 4
 4
 MORNSUN
+FL2D-30-702B-V0
+
+
+0
+4
+4
+MORNSUN
 K78xx-1000R3
 
 
 0
 3
 3
+MORNSUN
+TD5(3)01MCANFD
+
+
+0
+7
+7
+MORNSUN
+URB_ZP-10WR3
+
+
+0
+8
+8
 MORNSUN
 WRB_P-3WR2
 
