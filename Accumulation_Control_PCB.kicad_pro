@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -672,6 +672,74 @@
     [
       "7b040528-7065-4d6b-8722-075d9f593d01",
       "Root"
+    ],
+    [
+      "b6a6aefc-8fe7-46e8-ada8-774058c84ed9",
+      "Relay_Control_1"
+    ],
+    [
+      "5f7ade21-9d0a-4d5f-be4e-0f64af61fc83",
+      "Relay_Control_2"
+    ],
+    [
+      "5a03aee9-1d1f-4089-92ef-747f0a4a70a2",
+      "Relay_Control_3"
+    ],
+    [
+      "5c518ec8-ade4-45e7-9710-ecae868ed596",
+      "Relay_Control_4"
+    ],
+    [
+      "9899db55-79f0-44a7-bcf7-47f84b861c52",
+      "Relay_Control_5"
+    ],
+    [
+      "02d5e89d-4d30-4d48-bd33-e631e4b2c677",
+      "Relay_Control_6"
+    ],
+    [
+      "3f36cf9d-9ab9-45d8-bedd-ba3db79af5f5",
+      "Relay_Control_7"
+    ],
+    [
+      "8c9a0282-0397-4208-9c16-b43a5cfde2d1",
+      "Relay_Control_8"
+    ],
+    [
+      "23b1d26d-0438-4c0a-ba0f-8a73a3aee4c0",
+      "Solenoid_control_1"
+    ],
+    [
+      "7474189f-61b5-451d-98c9-7dd492ce5d9c",
+      "Solenoid_control_2"
+    ],
+    [
+      "a3641e02-0c05-4204-9bda-a076fe6b4dee",
+      "Solenoid_control_3"
+    ],
+    [
+      "f2e4ada1-f365-47a5-a07e-bc132ee8c231",
+      "Solenoid_control_4"
+    ],
+    [
+      "a1a6e7f1-964a-454f-b90b-a2386763e367",
+      "Solenoid_control_5"
+    ],
+    [
+      "18026073-7887-4b39-bd18-8f23b18405f0",
+      "Solenoid_control_6"
+    ],
+    [
+      "a8ba18fa-d26a-4e26-b63f-f30bf05e2945",
+      "Solenoid_control_7"
+    ],
+    [
+      "79e45338-5be9-4d2a-8ac7-1f7546202712",
+      "Solenoid_control_8"
+    ],
+    [
+      "3921ac16-82e1-4ab7-a80c-f6d04f7998f3",
+      "Voltage_measure_1"
     ]
   ],
   "text_variables": {}
