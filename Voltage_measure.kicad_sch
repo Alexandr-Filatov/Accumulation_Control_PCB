@@ -5,7 +5,7 @@
 	(uuid "c39797ff-aaa3-477b-bcba-a7d89f92465c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:LMV321"
+		(symbol "Amplifier_Operational:OPA333xxDBV"
 			(pin_names
 				(offset 0.127)
 			)
@@ -13,43 +13,43 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
+				(at -1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA333xxDBV"
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa333.pdf"
 				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-				)
-			)
-			(property "Value" "LMV321"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"
+			(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23* *SC*70*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LMV321_0_1"
+			(symbol "OPA333xxDBV_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -126,7 +126,7 @@
 					)
 				)
 			)
-			(symbol "LMV321_1_1"
+			(symbol "OPA333xxDBV_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -137,7 +137,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -155,7 +155,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,7 +173,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -651,6 +651,361 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1468,12 +1823,179 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 91.44 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04ffb089-9264-48dc-9a87-8a44789f7c5c")
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 146.05 111.76)
@@ -1554,16 +2076,16 @@
 		(uuid "a243187c-a107-472f-af24-aeb9f0273982")
 	)
 	(junction
-		(at 121.92 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c794b0da-2326-44f0-a593-ac2d3984e2d1")
-	)
-	(junction
 		(at 146.05 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c888f266-3469-4be7-8e15-d6b4c2b6359c")
+	)
+	(junction
+		(at 91.44 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c901618d-6e76-4c18-85a0-2622085f60d6")
 	)
 	(junction
 		(at 128.27 100.33)
@@ -1582,6 +2104,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d58ddf36-4d9e-4e89-acd0-423948177844")
+	)
+	(junction
+		(at 128.27 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6beb3fc-5a55-4acf-8601-9402a83d567c")
 	)
 	(junction
 		(at 167.64 99.06)
@@ -1644,16 +2172,6 @@
 			(type default)
 		)
 		(uuid "1335104f-d2c3-4fd0-8333-d399ab35cf72")
-	)
-	(wire
-		(pts
-			(xy 91.44 119.38) (xy 91.44 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af3fa46-d458-41b5-8345-e9d383ab7ae8")
 	)
 	(wire
 		(pts
@@ -1837,16 +2355,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 119.38) (xy 91.44 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0d28ba-f88a-47a7-b188-4215948b211b")
-	)
-	(wire
-		(pts
 			(xy 213.36 106.68) (xy 213.36 109.22)
 		)
 		(stroke
@@ -1997,6 +2505,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 67.31) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b35651-f05e-4553-915b-8df44caabc90")
+	)
+	(wire
+		(pts
 			(xy 154.94 93.98) (xy 157.48 93.98)
 		)
 		(stroke
@@ -2107,6 +2625,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 67.31) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7500b0a-9cb5-4aa8-9dec-25efb6959b9c")
+	)
+	(wire
+		(pts
 			(xy 180.34 78.105) (xy 180.34 81.915)
 		)
 		(stroke
@@ -2208,6 +2736,117 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 71.12 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "087022f2-11b3-4991-be25-cf3e66199846")
+		(property "Reference" "R26"
+			(at 68.834 78.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 71.247 78.613 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 69.342 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" ""
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" ""
+			(at 71.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ee32bbc-9682-42f8-9027-61e84ebe5e98")
+		)
+		(pin "2"
+			(uuid "d15ddc44-0711-4acc-9396-d37bcdca0ada")
+		)
+		(instances
+			(project "Accumulation_Control_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 161.29 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2295,15 +2934,110 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6d07d6a-5d3d-4b7a-8731-ba92bec6b166")
+			(uuid "ac81c5cd-94a3-4cd9-aef2-277fd2093c4e")
 		)
 		(pin "2"
-			(uuid "adfd6af5-6994-41e8-bb46-8a469e9bbf56")
+			(uuid "c7348e3b-102d-421a-8a70-2bd67a21832b")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R139")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 71.12 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f60d025-3ca7-499e-b03d-1d35ca1a6342")
+		(property "Reference" "D6"
+			(at 72.644 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TO-3216BC-MYF"
+			(at 73.66 93.9165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 71.12 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yellow LED"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bba02069-7f8f-4e08-a9c5-807a726e2250")
+		)
+		(pin "1"
+			(uuid "f2a9c940-972b-4378-934f-9de1164fd960")
+		)
+		(instances
+			(project ""
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "D81")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2363,12 +3097,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7e286bf-7669-471f-9ff7-e68f33daf40a")
+			(uuid "02854491-3ee5-4f0e-b66f-0171df800790")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2429,12 +3171,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "32edbc86-674d-4431-96cd-56b2b9f4b90c")
+			(uuid "4d7f8a2c-f6b5-4ebe-a32f-bbcd95e7b1e3")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2530,15 +3280,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8e249c5-6ca7-49c5-9c49-5769efc27538")
+			(uuid "d54e0acd-7275-40a5-975c-aa916bfff725")
 		)
 		(pin "2"
-			(uuid "4a06b0b7-5e37-4a55-85c3-101aab51e0a7")
+			(uuid "f304db60-297e-4898-afe8-a4e4ae004162")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "C2")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "C56")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2636,15 +3394,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d547e38-3ace-4d32-863d-c7fca27bdd65")
+			(uuid "be99b413-dce6-458f-b81b-01c938509d84")
 		)
 		(pin "2"
-			(uuid "c1663454-42e4-4967-8d6b-7c84b552b62d")
+			(uuid "5ba4375f-2ad2-4c4b-9410-696a5d715642")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "C10")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -2741,15 +3507,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f0aed90-9b29-4c4f-9016-69c5b82eb70f")
+			(uuid "bd3f6cad-dea8-4521-9716-0c291389cd88")
 		)
 		(pin "2"
-			(uuid "7326e802-aab8-48bb-acc5-7fc1c4c1cdbc")
+			(uuid "37e710d3-4fef-45d7-addf-3bb14ade5cd9")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R21")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R140")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2846,10 +3620,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "27bbbb09-ba37-4046-b9a4-77fb01def129")
+			(uuid "cb945a13-115e-4161-a923-38593fd62fe9")
 		)
 		(pin "2"
-			(uuid "6378ed78-cfc5-423c-9285-ce7529edfe32")
+			(uuid "f21929b2-b220-4a22-8264-542bd81ca31c")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
@@ -2857,117 +3631,12 @@
 					(reference "C25")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LMV321")
-		(at 190.5 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d827548-e6ac-4d93-86d9-06c33151909d")
-		(property "Reference" "U1"
-			(at 193.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "C64")
+					(unit 1)
 				)
-			)
-		)
-		(property "Value" "~"
-			(at 195.58 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 190.5 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-			(at 190.5 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"
-			(at 190.5 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Replacement" ""
-			(at 190.5 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 190.5 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description P/N" "Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5"
-			(at 190.5 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product Name" "LMV321"
-			(at 189.738 96.393 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "41524ecd-9391-43e2-9958-d5ebd66fc294")
-		)
-		(pin "5"
-			(uuid "c1b09c27-0be4-43b9-bd05-d90bc9c4c3ea")
-		)
-		(pin "1"
-			(uuid "9a3f8d83-dc38-4f26-bcc8-0d4432a7a9e2")
-		)
-		(pin "3"
-			(uuid "f887b382-1c62-448d-828e-1f8c9cd0873b")
-		)
-		(pin "4"
-			(uuid "a3c1065d-21b2-4eab-a5b4-83a749cb0fd4")
-		)
-		(instances
-			(project "Accumulation_Control_PCB"
-				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
-					(reference "U1")
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -3064,15 +3733,119 @@
 			)
 		)
 		(pin "1"
-			(uuid "3345bf5d-7369-4166-b944-b63a1e1970c1")
+			(uuid "e51c0948-53b2-40cd-b75f-5acd64cad982")
 		)
 		(pin "2"
-			(uuid "b9f8fd1c-08f8-4aec-a9bb-1ec087be6dfd")
+			(uuid "086a632f-04ef-40fe-88ec-8d802bc0994c")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "C22")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "C61")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 71.12 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b6a215b-2617-4867-830a-c02f43ef64e2")
+		(property "Reference" "D7"
+			(at 72.898 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "S1M"
+			(at 73.66 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 71.12 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "531c7e25-462a-4aca-b8ba-2ca84444c826")
+		)
+		(pin "1"
+			(uuid "ada50192-52b6-497a-9794-a2e4d89d495e")
+		)
+		(instances
+			(project ""
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "D83")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -3168,15 +3941,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "a99870c8-d16b-443d-be86-b15e778890d9")
+			(uuid "bc13d9d7-bbd8-45ad-a5a5-31b792e73078")
 		)
 		(pin "2"
-			(uuid "052eb90b-7563-4423-92d1-a6d49f32c968")
+			(uuid "93dfe88b-0a6e-41bb-82d4-4a9a882904b2")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R138")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -3236,12 +4017,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "2baec3d3-4d49-4717-aebc-2bc2947e2ce6")
+			(uuid "55ae7061-d130-4c2d-8213-16869ff2253b")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -3257,12 +4046,11 @@
 		(dnp no)
 		(uuid "4a178086-c233-45cb-a523-e0c3c061f946")
 		(property "Reference" "R1"
-			(at 99.822 74.168 90)
+			(at 98.044 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "2M"
@@ -3337,15 +4125,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f087912-6066-4ad0-b6e8-e32076df5468")
+			(uuid "8c91101f-995e-420e-877f-ba4678d002c4")
 		)
 		(pin "2"
-			(uuid "f89dec03-e4e0-47a8-ac6c-8edc3ccf77ed")
+			(uuid "9f4b8d1e-84ca-4295-847f-db3a63dbaa28")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R1")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3405,12 +4201,131 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc85322d-5037-42e5-975f-2272583b487e")
+			(uuid "768f4f60-aa26-42c7-b6f8-096d136dbfa6")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a00fd43-528a-4a4a-8d27-79c3a8b3eb11")
+		(property "Reference" "R27"
+			(at 68.834 70.866 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 71.247 70.993 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 69.342 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" ""
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" ""
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c664acbb-0e5d-42ed-8ad4-13fd63f1f1bc")
+		)
+		(pin "2"
+			(uuid "f688114b-8b4c-46d9-9d66-72b108a06e01")
+		)
+		(instances
+			(project "Accumulation_Control_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3426,12 +4341,11 @@
 		(dnp no)
 		(uuid "5f155ed0-a5d2-4614-801f-f07bfe21e438")
 		(property "Reference" "R9"
-			(at 104.775 95.25 0)
+			(at 106.934 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "16k"
@@ -3506,15 +4420,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f286612-91d3-45b1-8944-14d7e42666ed")
+			(uuid "4f821b3e-679c-4411-a395-94b19a131e89")
 		)
 		(pin "2"
-			(uuid "656b75f8-dc7b-43dc-9865-270ac5a20c0a")
+			(uuid "bc584fa7-0794-41de-a043-4188c5e5773a")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R9")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R137")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -3530,12 +4452,11 @@
 		(dnp no)
 		(uuid "6109cdcd-0b14-4d45-b979-22b0c6879e86")
 		(property "Reference" "R6"
-			(at 104.775 87.63 0)
+			(at 106.934 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "2M"
@@ -3610,15 +4531,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "34d37e7c-7f6c-4be9-805c-789ce7f60b02")
+			(uuid "388cc159-f3dc-4d38-863a-96ce48f7f107")
 		)
 		(pin "2"
-			(uuid "0ad09ff6-636c-4a44-82d9-2f56b1f16c23")
+			(uuid "6e0e0ebf-6b0e-41ae-befc-c2c48075ca27")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R6")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R134")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3678,12 +4607,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "beaa24b9-5501-43ba-9cdf-7e8ea2f9599a")
+			(uuid "1cd3e78c-6c3e-4745-a9c0-7be33b3c39a2")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3780,15 +4717,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "64accf79-d1d0-4360-bf84-c248295c40c4")
+			(uuid "707be39c-eebf-4122-856a-8819b7cfc2e1")
 		)
 		(pin "2"
-			(uuid "dd8ba8f1-72cc-4113-812a-7ac704d5996b")
+			(uuid "2e0842e1-b25f-46e4-8563-f960244d6120")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "C12")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "C60")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -3883,15 +4828,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "81c0dbd8-6284-49ff-a15e-d38b64815c7c")
+			(uuid "caea3cb2-7533-49b6-8575-b624d706426d")
 		)
 		(pin "2"
-			(uuid "4b0a6344-b904-4e08-a1b9-fc15930d70af")
+			(uuid "367fe23a-2e82-4183-952e-4f2fce77b3f0")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R136")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3991,18 +4944,99 @@
 			)
 		)
 		(pin "1"
-			(uuid "18847755-b914-4af4-99b3-1ab212a470b7")
+			(uuid "c5247023-c924-46ba-9f95-d78ad5aa81a6")
 		)
 		(pin "2"
-			(uuid "ed367151-1e58-4dd9-83f3-2a625d943578")
+			(uuid "4dd6aee3-f921-4471-8871-e03f859c801d")
 		)
 		(pin "3"
-			(uuid "a5da2bed-ffb5-43df-89dd-a6602058823b")
+			(uuid "09f85069-9f63-461a-a6c7-891a5ba2b496")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "D1")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "D80")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 91.44 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "944cd864-2d77-479f-96e4-4ef388de4cda")
+		(property "Reference" "#PWR069"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 91.44 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 91.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f581ed74-70bd-4686-853f-9c92af68d2a2")
+		)
+		(instances
+			(project "Accumulation_Control_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -4099,15 +5133,134 @@
 			)
 		)
 		(pin "1"
-			(uuid "32d073d1-6381-450f-affa-3054becf32f1")
+			(uuid "f087ab47-7ad1-4413-948a-f73704b6bbbb")
 		)
 		(pin "2"
-			(uuid "c8cdf9ae-9ddb-4593-aa93-9c68303419de")
+			(uuid "d3fc20bb-e051-41b2-8602-3deeaf956acf")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R4")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d55510f-fee0-41e7-92eb-3e77b6537a37")
+		(property "Reference" "R25"
+			(at 68.834 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150k"
+			(at 71.247 86.233 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 69.342 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" ""
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" ""
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abf20c34-7346-4bfc-99ce-6676cfc49fe7")
+		)
+		(pin "2"
+			(uuid "2ba2f04f-0210-445b-8dc6-8e01ad6416e6")
+		)
+		(instances
+			(project "Accumulation_Control_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R132")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4204,15 +5357,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "34cf41f5-a2c2-4f7e-ba83-b761cca5b9c3")
+			(uuid "e5bf5ca6-29d5-4f37-b6d0-f280bd37aff9")
 		)
 		(pin "2"
-			(uuid "164c8bfd-7118-4813-8428-85c5bd547a25")
+			(uuid "3baa9526-e974-4c45-8a80-5cd7fe627a86")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R5")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R133")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -4309,15 +5470,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f46ae01-7295-4243-8df4-f98de7b0aa6e")
+			(uuid "154c0424-36ef-4125-9d93-7cc9b946d003")
 		)
 		(pin "2"
-			(uuid "844df4d2-4bd2-48bf-b605-86686f4cd65c")
+			(uuid "3dfadbbb-1538-4ef8-824c-afa5b09f84c2")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "C24")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "C63")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -4377,12 +5546,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a9450d0-3547-4af7-a11f-f9b3f7e17b5b")
+			(uuid "0a1969f9-73ca-4c98-bf53-2894b364c080")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -4442,12 +5619,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c3716b7-7ff5-47a9-9793-86dc290f245f")
+			(uuid "2c08d030-6db7-495b-afac-18086bdd1c3b")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4544,15 +5729,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "d23ab431-5e90-4801-b9ae-e7572ede4f04")
+			(uuid "32eddf59-cf5c-4e37-b5f3-9f27a22eac77")
 		)
 		(pin "2"
-			(uuid "619b928f-1232-4f6c-a305-510ea8b72eb4")
+			(uuid "7dfb6dc6-1b9c-428c-87e8-bc056727bdea")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "C23")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "C62")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -4568,12 +5761,11 @@
 		(dnp no)
 		(uuid "baed209a-7cfc-49a4-99cc-7ab8fb9b405e")
 		(property "Reference" "R2"
-			(at 107.442 74.168 90)
+			(at 105.41 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "2M"
@@ -4648,15 +5840,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "f26ba49c-41a4-4d5b-8ccf-10318d9aeeac")
+			(uuid "1a9879cd-d0ca-4f3a-bf1f-edb1ee9062ba")
 		)
 		(pin "2"
-			(uuid "f1691342-55fe-46fd-b0f7-1aab63e40733")
+			(uuid "d8cef929-5564-4a3f-abd9-8478e6de4104")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R2")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4716,12 +5916,105 @@
 			)
 		)
 		(pin "1"
-			(uuid "f48e85ae-22d0-45b5-b5fe-abe940a99105")
+			(uuid "b4897f63-b3cc-4f3a-8e47-66ccc00f692e")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA333xxDBV")
+		(at 190.5 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c21ad904-5741-4f14-87e2-214ba1470c74")
+		(property "Reference" "U6"
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA333xxDBV"
+			(at 193.04 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "OPA333AIDBVR"
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SOT-23-5"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a953650f-832a-4a16-9708-b1949bbcdd26")
+		)
+		(pin "5"
+			(uuid "4f0b7517-6ac9-4baf-8ee9-a81dd189fee1")
+		)
+		(pin "4"
+			(uuid "1c7872f3-1fd1-40ea-87f4-d2c89b2ec9d0")
+		)
+		(pin "1"
+			(uuid "e6bb5d3b-fb4e-4d1e-8a4e-1fd3db791055")
+		)
+		(pin "3"
+			(uuid "89db66a8-2bdd-4a40-800a-b0d50dd14a29")
+		)
+		(instances
+			(project ""
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "U33")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "U32")
 					(unit 1)
 				)
 			)
@@ -4782,12 +6075,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8873bd39-aa10-4332-820c-19f5d6ad9f8b")
+			(uuid "707dda90-4ab5-4487-9613-dd92ab9e1e57")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -4847,12 +6148,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "29096e1d-1c89-4c10-ae27-56a96a9dddb1")
+			(uuid "b7c53a8c-8a99-4a69-a02e-f651f7700e2a")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 128.27 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd12377c-243b-4760-acd6-80780c74c3cf")
+		(property "Reference" "#PWR056"
+			(at 128.27 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 128.27 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0f17a8c-3f70-44d2-94c3-a782c6da308f")
+		)
+		(instances
+			(project "Accumulation_Control_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -4949,15 +6331,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "327d389c-555e-41f5-b215-0b0ccb5a3655")
+			(uuid "e2db3486-4b2b-4250-a2c3-051866542171")
 		)
 		(pin "2"
-			(uuid "62845df5-1679-44b0-9045-808b31c2bca2")
+			(uuid "f5aeff37-1615-49e7-b970-c0a5ad99c73f")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "C9")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "C57")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -5053,15 +6443,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "f4ebc57c-c6e6-4cec-ba83-96b994527b66")
+			(uuid "60e0a189-3b5a-4915-8c8d-ba47fca64dac")
 		)
 		(pin "1"
-			(uuid "2a02f837-163f-4891-b6da-efef384f74f1")
+			(uuid "04c0d29b-4f6a-41ed-8299-64425c29f587")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "J7")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "J33")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5122,12 +6520,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6a13345-bd70-4628-9664-e8487bba7b84")
+			(uuid "de6773a6-ce5e-4c9f-9ebf-ed29dd8afd83")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5224,15 +6630,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "7adb3088-2fdc-4dbc-bc21-be1c840ae25f")
+			(uuid "8053f22f-2185-4128-8b51-30fb8e386d8c")
 		)
 		(pin "2"
-			(uuid "32c65477-1ef8-4d9a-9f8a-8c291609f3b5")
+			(uuid "a4532d78-5f4c-4be8-825c-b07c54c41f17")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "C1")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "C55")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5293,12 +6707,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c9ad537-1790-4487-9439-957981cdd840")
+			(uuid "3b1df9e4-4a80-40d7-8cf1-9b7382f4c953")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -5393,15 +6815,96 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b40a547-d3f6-4007-b6ed-df8c3497205f")
+			(uuid "7529ad62-d58d-4816-ae81-6ce8db4c1863")
 		)
 		(pin "2"
-			(uuid "97738185-a695-485b-a329-04c8f51d3eb8")
+			(uuid "96ec0788-fd61-49f9-b133-fb41baa13b00")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R7")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R135")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 71.12 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dca83db9-d03f-4892-83fc-c6be376d0024")
+		(property "Reference" "#PWR070"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 71.12 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "199d4ef9-da22-41e6-b98d-afbebc2339c8")
+		)
+		(instances
+			(project "Accumulation_Control_PCB"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5470,7 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "VDC"
+		(property "Purpose" "VDC+"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -5497,15 +7000,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "84204707-ff2d-416a-ba8c-c1266f3e87df")
+			(uuid "405c0488-abf6-4e28-9adb-3e9f2f46d907")
 		)
 		(pin "1"
-			(uuid "1be8db90-4abd-4df0-8266-e3634c182099")
+			(uuid "8c94d7d3-4110-493d-9539-995ec15cfcd0")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "J3")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "J32")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5600,33 +7111,41 @@
 			)
 		)
 		(pin "8"
-			(uuid "f54f1954-2eea-47eb-a21e-60534820e113")
+			(uuid "d3f6cb32-a4a0-488f-afeb-24093e41d207")
 		)
 		(pin "7"
-			(uuid "3796cb63-6fed-43af-aa88-05031aeb5c63")
+			(uuid "76adeb4a-8e51-44b1-85ea-b51edf600f12")
 		)
 		(pin "6"
-			(uuid "afbe3cc3-92e6-4bda-b9e0-d008cafb9d23")
+			(uuid "f56d0ac9-cc42-46da-a3de-fe63d6688f00")
 		)
 		(pin "1"
-			(uuid "c20ec08b-40cb-4a7b-aa25-5a113fc05753")
+			(uuid "2d92c303-bf0b-4312-b547-060ade08587a")
 		)
 		(pin "3"
-			(uuid "b2ce5d9a-f573-427c-aadd-2dc9bbee0d57")
+			(uuid "57734426-ab8c-432d-90ee-f9ee93280f44")
 		)
 		(pin "5"
-			(uuid "5842c701-113f-4b95-9e9b-5c74a7d0b2f8")
+			(uuid "9e6f1f20-3f5d-4c29-ad3b-3881544bd93c")
 		)
 		(pin "4"
-			(uuid "fac91e91-2278-4c73-8b6b-4638b6a72095")
+			(uuid "dd992bd7-2b4a-465e-a42d-c18e0050144d")
 		)
 		(pin "2"
-			(uuid "9f329e4e-d678-4e78-b5db-7e4b51dec9c7")
+			(uuid "a4197fa6-f95f-438f-bfbd-19c2494074d0")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "D2")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "D82")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5686,12 +7205,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a993172-e2bf-4857-a346-a0e4a3611fd9")
+			(uuid "3738f8ed-801c-448f-9a51-1bfe1385a289")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -5751,12 +7278,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "98e5e9aa-a198-42d3-9027-cb43758e68bc")
+			(uuid "9bb34927-08b3-4276-b533-c98b5999b2af")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5772,12 +7307,11 @@
 		(dnp no)
 		(uuid "ff3d0aef-6b5e-4c2e-9346-ed6deb5d7e1f")
 		(property "Reference" "R3"
-			(at 104.775 80.01 0)
+			(at 106.934 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "2M"
@@ -5852,15 +7386,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "9721591c-80f1-4279-a144-6241de15d064")
+			(uuid "23f21cbe-ea81-45b9-a8df-e4160380a10b")
 		)
 		(pin "2"
-			(uuid "b5636367-2035-46bb-8a67-424d9a121801")
+			(uuid "046cd034-1845-4b7b-aae7-717ffd7722b3")
 		)
 		(instances
 			(project "Accumulation_Control_PCB"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01/3921ac16-82e1-4ab7-a80c-f6d04f7998f3"
 					(reference "R3")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/93ce951f-aa44-4957-b9af-2a48ec1cc942"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01/a8507d04-f082-4072-a7b5-a924f1d0a9fd"
+					(reference "R32")
 					(unit 1)
 				)
 			)

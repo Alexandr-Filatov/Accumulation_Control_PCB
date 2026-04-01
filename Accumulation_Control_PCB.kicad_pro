@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.4,
-          "height": 3.3,
-          "width": 2.7
+          "drill": 0.0,
+          "height": 0.8,
+          "width": 1.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -740,6 +740,14 @@
     [
       "3921ac16-82e1-4ab7-a80c-f6d04f7998f3",
       "Voltage_measure_1"
+    ],
+    [
+      "a8507d04-f082-4072-a7b5-a924f1d0a9fd",
+      "Voltage_measure_2"
+    ],
+    [
+      "93ce951f-aa44-4957-b9af-2a48ec1cc942",
+      "Voltage_measure_3"
     ]
   ],
   "text_variables": {}
